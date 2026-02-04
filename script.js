@@ -1,6 +1,7 @@
 let count = 0;
 
 
+
 function increment(event) {
     count += 1;
     document.getElementById(`count`).innerText = `You have clicked ${count} times`;
@@ -27,3 +28,6 @@ function reset() {
     document.getElementById(`count`).innerText = `You have clicked 0 times`;
 }
 
+document.getElementById('btn').addEventListener('click', function(event) {
+    increment(event);
+});
