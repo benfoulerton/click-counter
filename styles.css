@@ -36,7 +36,7 @@ body > div {
     box-shadow: 12px 12px 10px rgb(3, 3, 3);
     transition: all 0.06s ease-in-out;
     font-weight: bolder;
-    
+    user-select: none;
 }
 
 .increment:hover {
@@ -77,4 +77,21 @@ body > div {
 .reset:active {
     transform: scale(0.95);
     box-shadow: 0px 0px 5px rgb(3, 3, 3);
+}
+
+.popup-animation {
+    animation: float-up 2s forwards;
+    user-select: none;
+    pointer-events: none;
+}
+
+@keyframes float-up {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
 }
