@@ -95,3 +95,35 @@ body > div {
         transform: translateY(-100px);
     }
 }
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .increment {
+        width: 20vh;
+        height: 20vh;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.2;
+    }
+    
+    .reset {
+        width: 15vh;
+        height: 15vh;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.2;
+    }
+    
+    .count {
+        font-size: 2rem;
+    }
+}
