@@ -34,7 +34,7 @@ body > div {
     cursor: pointer;
     border-radius: 50%;
     box-shadow: 12px 12px 10px rgb(3, 3, 3);
-    transition: all 0.06s ease-in-out;
+    transition: all 0.04s ease-in-out;
     font-weight: bolder;
     user-select: none;
 }
